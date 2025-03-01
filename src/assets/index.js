@@ -7,10 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import ajie from "./ajie-takon.jpg";
+import tonia from "./tonia.jpg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -23,17 +22,26 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import nugitech from "./company/nugitech.svg";
+import nugiinnovations from "./company/nugiinnovations.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import crossriverstate from "./projects/crossriverstate.png";
+import mdatemplates from "./projects/mdatemplates.png";
+import myhealingjourney from "./projects/myhealingjourney.png";
+import nugitechuk from "./projects/nugitechuk.png";
+import syncventory from "./projects/syncventory.png";
+import uau from "./projects/uau.png";
 
 export {
-  ajie,
+  nugitech,
+  nugiinnovations,
+  crossriverstate,
+  mdatemplates,
+  myhealingjourney,
+  nugitechuk,
+  syncventory,
+  uau,
+  tonia,
   logo,
   backend,
   creator,
