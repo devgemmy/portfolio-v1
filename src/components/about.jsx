@@ -45,14 +45,20 @@ const About = ({data}) => {
 
       <motion.p 
         variants={fadeIn('', '', 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 mb-6 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm an experienced software developer proficient in TypeScript and JavaScript, with expertise in frameworks like React, Node.js, and Three.js. As a fast learner and strong collaborator, I work closely with designers, developers and project managers, to develop efficient, scalable, and user-friendly solutions that address real-world challenges. Let's work together to bring your ideas to life!
+        
       </motion.p>
+      <motion.a variants={fadeIn('', '', 0.1, 1)} href='/resume/anthonia_asikpo_resume.pdf'> 
+        <button
+            type='button'
+            className='bg-[#3d2a74] py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary'
+          >
+            My Resume
+          </button>
+        </motion.a>
+      
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

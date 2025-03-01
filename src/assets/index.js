@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./external-link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -23,25 +23,20 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import nugitech from "./company/nugitech.svg";
-import nugiinnovations from "./company/nugiinnovations.svg";
+import nugiinnovations from "./company/nugi-innovations.svg";
+
+import docaustyne from "./testimonials/docaustyne.png";
+import emmaolube from "./testimonials/emmaolube.jpg";
+import publicfigure from "./testimonials/publicfigure.jpg";
 
 import crossriverstate from "./projects/crossriverstate.png";
-import mdatemplates from "./projects/mdatemplates.png";
+import mdatemplates from "./projects/mda-templates.png";
 import myhealingjourney from "./projects/myhealingjourney.png";
 import nugitechuk from "./projects/nugitechuk.png";
 import syncventory from "./projects/syncventory.png";
 import uau from "./projects/uau.png";
 
 export {
-  nugitech,
-  nugiinnovations,
-  crossriverstate,
-  mdatemplates,
-  myhealingjourney,
-  nugitechuk,
-  syncventory,
-  uau,
-  tonia,
   logo,
   backend,
   creator,
@@ -50,8 +45,8 @@ export {
   github,
   menu,
   close,
+  tonia,
   css,
-  docker,
   figma,
   git,
   html,
@@ -63,11 +58,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  nugitech,
+  nugiinnovations,
+  crossriverstate,
+  mdatemplates,
+  myhealingjourney,
+  nugitechuk,
+  syncventory,
+  uau,
+  docaustyne,
+  emmaolube,
+  publicfigure,
 };

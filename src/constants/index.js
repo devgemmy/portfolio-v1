@@ -1,180 +1,255 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs } from "../assets";
-  
+import {
+  backend,
+  creator,
+  mobile,
+  web,
+  css,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  nugitech,
+  nugiinnovations,
+  crossriverstate,
+  mdatemplates,
+  myhealingjourney,
+  nugitechuk,
+  syncventory,
+  uau,
+  docaustyne,
+  emmaolube,
+  publicfigure,
+} from "../assets";
+
 export const navLinks = [
-    { id: "about", title: "About" },
-    { id: "work", title: "Work" },
-    { id: "contact", title: "Contact" },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "contact", title: "Contact" },
 ];
-  
+
 const services = [
-    { title: "Web Developer", icon: web },
-    { title: "React Native Developer", icon: mobile },
-    { title: "Backend Developer", icon: backend },
-    { title: "Content Creator",  icon: creator },
+  { title: "Frontend Engineer", icon: web },
+  { title: "Software Developer", icon: mobile },
+  { title: "Tech Instructor", icon: backend },
+  { title: "E-Business Sophomore", icon: creator },
 ];
-  
+
 const technologies = [
-    { name: "HTML 5", icon: html },
-    { name: "CSS 3", icon: css,},
-    { name: "JavaScript", icon: javascript },
-    { name: "TypeScript", icon: typescript },
-    { name: "React JS", icon: reactjs,},
-    { name: "Redux Toolkit", icon: redux },
-    { name: "Tailwind CSS", icon: tailwind },
-    { name: "Node JS", icon: nodejs },
-    { name: "MongoDB", icon: mongodb },
-    { name: "Three JS", icon: threejs },
-    { name: "git", icon: git },
-    { name: "figma", icon: figma },
-    { name: "docker", icon: docker },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "React JS", icon: reactjs },
+  { name: "Redux Toolkit", icon: redux },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "MongoDB", icon: mongodb },
+  { name: "Three JS", icon: threejs },
+  { name: "git", icon: git },
+  { name: "figma", icon: figma },
 ];
 
 const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  {
+    title: "Software Developer",
+    company_name: "Nugi Technologies",
+    icon: nugitech,
+    iconBg: "#ced8ff",
+    date: "August 2020 - Date",
+    points: [
+      "Worked with cross-functional teams includingUX designers, product managers, and otherdevelopers to create high-quality softwareproducts.",
+      "Collaborated with other developers to identify and alleviate the number of bugs on a website and web app.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Met with managers on a weekly basis to provide a detailed project report and milestone updates.",
+      "Website proposal drafting.",
+    ],
+  },
+  {
+    title: "Tech Instructor",
+    company_name: "Nugi Innovations",
+    icon: nugiinnovations,
+    iconBg: "#ffe9c2",
+    date: "Feb 2021 - Date",
+    points: [
+      "Taught kids (5 years to 12 years) visualprogramming and how to build creativeprograms.",
+      "Designed and orchestrated the learningroadmaps for web development, FullStack,and other programming courses.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Shopify",
+    icon: nugitech,
+    iconBg: "#ced8ff",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
 ];
 
 const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+  {
+    testimonial: "I'm proud of her growth and dedication to work.",
+    name: "Ugi Augustine Ugi",
+    designation: "President",
+    company: "Nugi Group",
+    image: docaustyne,
+  },
+  {
+    testimonial:
+      "I thought it was almost impossible to make a website precisely the way it was designed, but Anthonia proved me wrong.",
+    name: "Emmanuel Olube",
+    designation: "CPO",
+    company: "Syncventory",
+    image: emmaolube,
+  },
+  {
+    testimonial:
+      "She has successfully developed and maintained web applications at Nugi, It's been a pleasure working with her.",
+    name: "Godswill Adie",
+    designation: "CTO",
+    company: "Nugi Technologies",
+    image: publicfigure,
+  },
 ];
-  
+
 const projects = [
-    {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+  {
+    name: "Cross River State",
+    description:
+      "The official website for the Cross River State government, providing information about the state, its people, and its government.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crossriverstate,
+    source_code_link: "https://crossriverstate.gov.ng/",
+  },
+  {
+    name: "Syncventory",
+    description:
+      "Web application that enables businesses to monitor stock levels, track product movements, and manage multiple stores from a single platform.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: syncventory,
+    source_code_link: "https://syncventory.co/",
+  },
+  {
+    name: "Nugi Technologies UK",
+    description:
+      "Nugi Technologies is a customer-centric ICT solutions provider specializing in digital transformation and technological innovations across various sectors.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nugitechuk,
+    source_code_link: "https://nugitech.co.uk/",
+  },
+  {
+    name: "UAU Brand",
+    description:
+      "Brand website of the Nugi Group President, who is dedicated to driving change in rural communities through innovative models, focusing on enhancing educational outcomes across Africa.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: uau,
+    source_code_link: "https://docaustyne.com/",
+  },
+  {
+    name: "My Healing Journey",
+    description:
+      "Web application that connects patients with top UK healthcare providers, specializing in personalized medical tourism services to facilitate access to high-quality treatments and care.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myhealingjourney,
+    source_code_link: "https://myhealingjourney.uk/",
+  },
+  {
+    name: "CRS Lottery",
+    description:
+      "A government-regulated platform that oversees lottery and gaming activities in Cross River State, providing licensing, compliance monitoring, and resources for operators and stakeholders in the gaming industry.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mdatemplates,
+    source_code_link: "https://lotteryandgaming.crossriverstate.gov.ng/",
+  },
 ];
-  
+
 export { services, technologies, experiences, testimonials, projects };
