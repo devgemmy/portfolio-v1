@@ -1,4 +1,4 @@
-name: Nugitech Website -- Production Deploy
+name: Anthonia's Portfolio Website
 
 on:
   push:
@@ -8,11 +8,9 @@ on:
 
 jobs:
   build:
-    name: Build Website
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out code
       - uses: actions/checkout@v3
 
       - name: Setup Node.js environment
@@ -34,7 +32,7 @@ jobs:
           HOST: ${{ secrets.PROD_SSH_HOST }}
           USERNAME: ${{ secrets.PROD_SSH_USER }}
           KEY: ${{ secrets.SSH_KEY }}
-          script: "cd '${{ secrets.PROD_SPA_PATH }}' && rm -rf *"
+          script: "cd '${{ secrets.PROD_SPA_PATH }}' && rm -rf ./*"
 
       - name: Copy file via scp
         uses: appleboy/scp-action@master
