@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     name: Build Website
-    timeout-minutes: 15
     runs-on: ubuntu-latest
 
     steps:
@@ -27,8 +26,7 @@ jobs:
         run: yarn --legacy-peer-deps
 
       - name: Build for Production
-        working-directory: ./
-        run: yarn build
+        run: CI='' yarn build
 
       - name: Executing remote command one
         uses: appleboy/ssh-action@master
