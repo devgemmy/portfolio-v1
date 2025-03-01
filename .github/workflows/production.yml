@@ -8,9 +8,12 @@ on:
 
 jobs:
   build:
+    name: Build Website
+    timeout-minutes: 15
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check out code
       - uses: actions/checkout@v3
 
       - name: Setup Node.js environment
@@ -24,15 +27,8 @@ jobs:
         run: yarn --legacy-peer-deps
 
       - name: Build for Production
-        run: CI='' yarn build
-
-      - name: Executing remote command one
-        uses: appleboy/ssh-action@master
-        with:
-          HOST: ${{ secrets.PROD_SSH_HOST }}
-          USERNAME: ${{ secrets.PROD_SSH_USER }}
-          KEY: ${{ secrets.SSH_KEY }}
-          script: "cd ${{ secrets.PROD_SPA_PATH }} && rm -rf ./*"
+        working-directory: ./
+        run: yarn build
 
       - name: Copy file via scp
         uses: appleboy/scp-action@master
@@ -49,4 +45,5 @@ jobs:
           HOST: ${{ secrets.PROD_SSH_HOST }}
           USERNAME: ${{ secrets.PROD_SSH_USER }}
           KEY: ${{ secrets.SSH_KEY }}
-          script: "cd '${{ secrets.PROD_SPA_PATH }}'dist/ && mv * ../ && cd ../ && rm -rf dist/"
+          script: |
+            cd ${{ secrets.PROD_SPA_PATH }}
