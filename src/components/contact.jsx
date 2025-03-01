@@ -39,13 +39,13 @@ const Contact = () => {
         'template_nwmrit6',
         {
           from_name: form.name,
-          to_name: "Ajie Takon",
+          to_name: "Anthonia Asikpo",
           from_email: form.email,
-          to_email: "takonajie@gmail.com",
+          to_email: "ant0nialexis.dev@gmail.com",
           message: form.message,
         },
-        // import.meta.env.EMAILJS_PUBLIC_KEY
-        '9iOwrkOWoaH96dgwz'
+        import.meta.env.EMAILJS_PUBLIC_KEY
+        // '9iOwrkOWoaH96dgwz'
       )
       .then(
         () => {
