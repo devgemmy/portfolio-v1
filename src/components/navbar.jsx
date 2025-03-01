@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles';
 import { navLinks } from '../constants'
-import { ajie, menu, close } from '../assets'
+import { tonia, menu, close } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -17,9 +17,9 @@ const Navbar = () => {
             window.scrollTo(0,0)
           }}
         >
-          <img src={ajie} alt={`${ajie}-alt`} className='rounded-full w-9 h-9 object-contain' />
+          <img src={tonia} alt={`${tonia}-alt`} className='rounded-full w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Ajie &nbsp;<span className='sm:block hidden'>Takon</span>
+            Anthonia &nbsp;<span className='sm:block hidden'>Asikpo</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

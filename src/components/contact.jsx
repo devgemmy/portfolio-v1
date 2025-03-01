@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import anthonia from "../assets/contact-me.png";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -76,7 +78,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
         <form
           ref={formRef}
@@ -121,7 +123,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-[#3d2a74] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -131,9 +133,18 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[550px]'
       >
-        <EarthCanvas />
+        <div className="xl:flex-1 xl:h-auto md:h-[300px] h-[225px] items-end">
+          <EarthCanvas />
+        </div>
+        
+        
+        <img
+          src={anthonia}
+          alt={`${anthonia}-alt}`}
+          className='w-[450px] object-contain block md:hidden xl:block'
+        />
       </motion.div>
     </div>
   )
