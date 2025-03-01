@@ -40,7 +40,7 @@ jobs:
           HOST: ${{ secrets.PROD_SSH_HOST }}
           USERNAME: ${{ secrets.PROD_SSH_USER }}
           KEY: ${{ secrets.SSH_KEY }}
-          source: "./out/*"
+          source: "./dist/*"
           target: ${{ secrets.PROD_SPA_PATH }}
 
       - name: Executing remote command
@@ -49,4 +49,4 @@ jobs:
           HOST: ${{ secrets.PROD_SSH_HOST }}
           USERNAME: ${{ secrets.PROD_SSH_USER }}
           KEY: ${{ secrets.SSH_KEY }}
-          script: "cd '${{ secrets.PROD_SPA_PATH }}'out/ && mv * ../ && cd ../ && rm -rf out/"
+          script: "cd '${{ secrets.PROD_SPA_PATH }}'dist/ && mv * ../ && cd ../ && rm -rf dist/"
