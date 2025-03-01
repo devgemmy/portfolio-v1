@@ -107,7 +107,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was almost impossible to make a website precisely the way it was designed, but Anthonia proved me wrong.",
+      "I thought it was almost impossible to build a website precisely the way it was designed, but Anthonia proved me wrong.",
     name: "Emmanuel Olube",
     designation: "CPO",
     company: "Syncventory",
