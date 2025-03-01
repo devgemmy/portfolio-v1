@@ -18,8 +18,8 @@ const Navbar = () => {
           }}
         >
           <img src={tonia} alt={`${tonia}-alt`} className='rounded-full w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Anthonia &nbsp;<span className='sm:block hidden'>Asikpo</span>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex items-center'>
+            Anthonia Asikpo &nbsp;<span className='sm:block hidden devgemmy-text-gradient text-sm'>@devgemmy</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

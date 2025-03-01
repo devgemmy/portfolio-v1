@@ -62,7 +62,7 @@ const experiences = [
     company_name: "Nugi Technologies",
     icon: nugitech,
     iconBg: "#ced8ff",
-    date: "August 2020 - Date",
+    date: "August 2020 - Present",
     points: [
       "Worked with cross-functional teams includingUX designers, product managers, and otherdevelopers to create high-quality softwareproducts.",
       "Collaborated with other developers to identify and alleviate the number of bugs on a website and web app.",
@@ -76,30 +76,30 @@ const experiences = [
     company_name: "Nugi Innovations",
     icon: nugiinnovations,
     iconBg: "#ffe9c2",
-    date: "Feb 2021 - Date",
+    date: "Feb 2021 - Present",
     points: [
       "Taught kids (5 years to 12 years) visualprogramming and how to build creativeprograms.",
       "Designed and orchestrated the learningroadmaps for web development, FullStack,and other programming courses.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Web Frontend Intern",
+    company_name: "Nugi Technologies",
     icon: nugitech,
     iconBg: "#ced8ff",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2019 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed clean, clear, and well-tested code for various projects.",
+      "Created multiple-page websites with JavaScript and Typescript, improving website performance and speed.",
+      "Maximised coding efficiency through effective optimisation, participating in code reviews and providing as well as receiving constructive feedback to other developers.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial: "I'm proud of her growth and dedication to work.",
+    testimonial:
+      "Her innovative mindset and problem-solving skills drive excellence in every project. She is an inspiration to the team. I'm proud of her growth and dedication to work.",
     name: "Ugi Augustine Ugi",
     designation: "President",
     company: "Nugi Group",
@@ -115,7 +115,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "She has successfully developed and maintained web applications at Nugi, It's been a pleasure working with her.",
+      "She has successfully developed and maintained several web applications at Nugi, It's been a pleasure working with her.",
     name: "Godswill Adie",
     designation: "CTO",
     company: "Nugi Technologies",
