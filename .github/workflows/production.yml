@@ -45,5 +45,4 @@ jobs:
           HOST: ${{ secrets.PROD_SSH_HOST }}
           USERNAME: ${{ secrets.PROD_SSH_USER }}
           KEY: ${{ secrets.SSH_KEY }}
-          script: |
-            cd ${{ secrets.PROD_SPA_PATH }}
+          script: "cd '${{ secrets.PROD_SPA_PATH }}'dist/ && mv * ../ && cd ../ && rm -rf dist/"
