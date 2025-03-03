@@ -107,7 +107,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was almost impossible to build a website precisely the way it was designed, but Anthonia proved me wrong.",
+      "Anthonia’s expertise in web development was instrumental in bringing Syncventory’s website to life. She combines technical skill with a keen eye for design, ensuring a seamless and user-friendly experience. A true professional!",
     name: "Emmanuel Olube",
     designation: "CPO",
     company: "Syncventory",
