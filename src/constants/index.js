@@ -31,6 +31,7 @@ import {
 export const navLinks = [
   { id: "about", title: "About" },
   { id: "work", title: "Work" },
+  { id: "projects", title: "Projects" },
   { id: "contact", title: "Contact" },
 ];
 
@@ -99,7 +100,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Her innovative mindset and problem-solving skills drive excellence in every project. She is an inspiration to the team. I'm proud of her growth and dedication to work.",
+      "Anthonia Alexis is a brilliant software engineer whose dedication and expertise have greatly impacted Nugi. Her innovative mindset and problem-solving skills drive excellence in every project. She is an inspiration to the team and a true asset to the future of Nugi and  technology.",
     name: "Ugi Augustine Ugi",
     designation: "President",
     company: "Nugi Group",
@@ -107,7 +108,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Anthonia’s expertise in web development was instrumental in bringing Syncventory’s website to life. She combines technical skill with a keen eye for design, ensuring a seamless and user-friendly experience. A true professional!",
+      "Anthonia’s expertise in web development was instrumental in bringing Syncventory’s website to life. She combines technical skill with a keen eye for design, ensuring a seamless and user-friendly experience. Her dedication and problem-solving abilities made the entire process smooth and efficient. A true professional!",
     name: "Emmanuel Olube",
     designation: "CPO",
     company: "Syncventory",
