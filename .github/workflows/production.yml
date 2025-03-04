@@ -33,9 +33,7 @@ jobs:
           USERNAME: ${{ secrets.PROD_SSH_USER }}
           KEY: ${{ secrets.SSH_KEY }}
           SCRIPT: |
-            cd ${{ secrets.PROD_SPA_PATH }}
-            rm -rf *
-            exit
+            rm -rf ${{ secrets.PROD_SPA_PATH }}/*
           source: "./dist/*"
           target: ${{ secrets.PROD_SPA_PATH }}
 
@@ -45,4 +43,7 @@ jobs:
           HOST: ${{ secrets.PROD_SSH_HOST }}
           USERNAME: ${{ secrets.PROD_SSH_USER }}
           KEY: ${{ secrets.SSH_KEY }}
-          script: "cd '${{ secrets.PROD_SPA_PATH }}'dist/ && mv * ../ && cd ../ && rm -rf dist/"
+          script: |
+            cd '${{ secrets.PROD_SPA_PATH }}'
+            rsync -av dist/ ./
+            rm -rf dist/
